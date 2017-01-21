@@ -32,15 +32,15 @@ public class RandomLetter : MonoBehaviour {
     }
 	
 	void Update () {
-        if (GameObject.Find("Timer").GetComponent<Text>().text == "Player 1 Wins!")
+        if (GameObject.Find("Win").GetComponent<Text>().text == "Player 1 Wins!")
         {
 
         }
-        else if (GameObject.Find("Timer").GetComponent<Text>().text == "Player 2 Wins!")
+        else if (GameObject.Find("Win").GetComponent<Text>().text == "Player 2 Wins!")
         {
 
         }
-        else if (GameObject.Find("Timer").GetComponent<Text>().text == "No Winners This Time!")
+        else if (GameObject.Find("Win").GetComponent<Text>().text == "No Winners This Time!")
         {
 
         }
