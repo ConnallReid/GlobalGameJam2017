@@ -29,12 +29,26 @@ public class RandomLetter : MonoBehaviour {
         LetterLetter2 = Letters[RandomLetter2];
         GameObject.Find("Player 1 Letter").GetComponent<Text>().text = LetterLetter1;
         GameObject.Find("Player 2 Letter").GetComponent<Text>().text = LetterLetter2;
-        Hit1 = false;
     }
 	
 	void Update () {
-        Player1Stuff();
-        Player2Stuff();
+        if (GameObject.Find("Timer").GetComponent<Text>().text == "Player 1 Wins!")
+        {
+
+        }
+        else if (GameObject.Find("Timer").GetComponent<Text>().text == "Player 2 Wins!")
+        {
+
+        }
+        else if (GameObject.Find("Timer").GetComponent<Text>().text == "No Winners This Time!")
+        {
+
+        }
+        else
+        {
+            Player1Stuff();
+            Player2Stuff();
+        }
 
         if(GameObject.Find("Player 1 Letter").GetComponent<Text>().text == GameObject.Find("Player 2 Letter").GetComponent<Text>().text)
         {
@@ -42,7 +56,6 @@ public class RandomLetter : MonoBehaviour {
             LetterLetter2 = Letters[RandomLetter2];
             GameObject.Find("Player 2 Letter").GetComponent<Text>().text = LetterLetter2;
         }
-
     }
 
     void Player1Stuff()
