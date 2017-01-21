@@ -7,23 +7,47 @@ Direct3D:
     VRAM:     848 MB
     Driver:   10.17.10.4229
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\Connall\Documents\GlobalGameJam2017\Prototype1_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\Connall\Documents\GlobalGameJam2017\Prototype1_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\Connall\Documents\GlobalGameJam2017\Prototype1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\Connall\Documents\GlobalGameJam2017\Prototype1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\Connall\Documents\GlobalGameJam2017\Prototype1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\Connall\Documents\GlobalGameJam2017\Prototype1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\Connall\Documents\GlobalGameJam2017\Prototype1_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\Connall\Documents\GlobalGameJam2017\Prototype1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\Connall\Documents\GlobalGameJam2017\Prototype1_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
-Loading C:\Users\Connall\Documents\GlobalGameJam2017\Prototype1_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.046 seconds
-Platform assembly: C:\Users\Connall\Documents\GlobalGameJam2017\Prototype1_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\Connall\Documents\GlobalGameJam2017\Prototype1_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\Connall\Documents\GlobalGameJam2017\Prototype 1\Prototype1_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Connall\Documents\GlobalGameJam2017\Prototype 1\Prototype1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Connall\Documents\GlobalGameJam2017\Prototype 1\Prototype1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Connall\Documents\GlobalGameJam2017\Prototype 1\Prototype1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Connall\Documents\GlobalGameJam2017\Prototype 1\Prototype1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Connall\Documents\GlobalGameJam2017\Prototype 1\Prototype1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Connall\Documents\GlobalGameJam2017\Prototype 1\Prototype1_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Connall\Documents\GlobalGameJam2017\Prototype 1\Prototype1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Connall\Documents\GlobalGameJam2017\Prototype 1\Prototype1_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Connall\Documents\GlobalGameJam2017\Prototype 1\Prototype1_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.048 seconds
+Platform assembly: C:\Users\Connall\Documents\GlobalGameJam2017\Prototype 1\Prototype1_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Connall\Documents\GlobalGameJam2017\Prototype 1\Prototype1_Data\Managed\System.dll (this message is harmless)
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 4.599249 ms
+UnloadTime: 2.962939 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: f50 -> priority: 1 
+  Thread -> id: 29b8 -> priority: 1 
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 9.797333 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 303.
+Total: 0.326637 ms (FindLiveObjects: 0.028558 ms CreateObjectMapping: 0.020080 ms MarkObjects: 0.256579 ms  DeleteObjects: 0.020972 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.780448 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 303.
+Total: 0.337792 ms (FindLiveObjects: 0.041498 ms CreateObjectMapping: 0.031235 ms MarkObjects: 0.243193 ms  DeleteObjects: 0.020972 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.999545 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 303.
+Total: 0.315927 ms (FindLiveObjects: 0.030343 ms CreateObjectMapping: 0.019187 ms MarkObjects: 0.245870 ms  DeleteObjects: 0.019633 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.484146 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 303.
+Total: 0.605974 ms (FindLiveObjects: 0.047299 ms CreateObjectMapping: 0.041052 ms MarkObjects: 0.480585 ms  DeleteObjects: 0.035698 ms)
+
