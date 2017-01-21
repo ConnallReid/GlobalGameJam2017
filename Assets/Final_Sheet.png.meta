@@ -1,0 +1,328 @@
+fileFormatVersion: 2
+guid: c23a14a8cf41f0c4f8eeb5cadab2279b
+timeCreated: 1485018493
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Final_Sheet_0
+    21300002: Final_Sheet_1
+    21300004: Final_Sheet_2
+    21300006: Final_Sheet_3
+    21300008: Final_Sheet_4
+    21300010: Final_Sheet_5
+    21300012: Final_Sheet_6
+    21300014: Final_Sheet_7
+    21300016: Final_Sheet_8
+    21300018: Final_Sheet_9
+    21300020: Final_Sheet_10
+    21300022: Final_Sheet_11
+    21300024: Final_Sheet_12
+    21300026: Final_Sheet_13
+    21300028: Final_Sheet_14
+    21300030: Final_Sheet_15
+    21300032: Final_Sheet_16
+    21300034: Final_Sheet_17
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Final_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 3316
+        width: 833
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Final_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 3139
+        width: 833
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Final_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 2966
+        width: 832
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Final_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 2785
+        width: 833
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Final_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 2593
+        width: 833
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Final_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 2395
+        width: 830
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Final_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 2199
+        width: 833
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Final_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2004
+        width: 834
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Final_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1814
+        width: 833
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Final_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1619
+        width: 832
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Final_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1434
+        width: 828
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Final_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1231
+        width: 832
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Final_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 1033
+        width: 834
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Final_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 826
+        width: 833
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Final_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 625
+        width: 831
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Final_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 442
+        width: 833
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Final_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 236
+        width: 833
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Final_Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 28
+        width: 833
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
