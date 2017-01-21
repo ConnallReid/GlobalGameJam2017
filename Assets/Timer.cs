@@ -34,6 +34,8 @@ public class Timer : MonoBehaviour {
 
         time = 40;
 
+        GameObject.Find("Timer").GetComponent<Text>().text = time.ToString();
+
         Bar1A = GameObject.Find("Bar1A");
         Bar1B = GameObject.Find("Bar1B");
         Bar1C = GameObject.Find("Bar1C");
@@ -64,34 +66,37 @@ public class Timer : MonoBehaviour {
 
         win = false;
     }
-	
-	void Update () {
+
+    void Update()
+    {
 
         Bar1();
         Bar2();
 
         Camera = GameObject.Find("Main Camera");
-
-        if (time > 0 && win==false)
+        if (randomLetter.Go == true)
         {
-            time -= Time.deltaTime;
-            seconds = Mathf.Round(time);
+            if (time > 0 && win == false)
+            {
+                time -= Time.deltaTime;
+                seconds = Mathf.Round(time);
 
-            GameObject.Find("Timer").GetComponent<Text>().text = seconds.ToString();
-        }
-        else
-        {
-            if (randomLetter.Score1 > randomLetter.Score2)
-            {
-                GameObject.Find("Win").GetComponent<Text>().text = "Player 1 Wins!";
-            }
-            else if (randomLetter.Score1 < randomLetter.Score2)
-            {
-                GameObject.Find("Win").GetComponent<Text>().text = "Player 2 Wins!";
+                GameObject.Find("Timer").GetComponent<Text>().text = seconds.ToString();
             }
             else
             {
-                GameObject.Find("Win").GetComponent<Text>().text = "No Winners This Time!";
+                if (randomLetter.Score1 > randomLetter.Score2)
+                {
+                    GameObject.Find("Win").GetComponent<Text>().text = "Player 1 Wins!";
+                }
+                else if (randomLetter.Score1 < randomLetter.Score2)
+                {
+                    GameObject.Find("Win").GetComponent<Text>().text = "Player 2 Wins!";
+                }
+                else
+                {
+                    GameObject.Find("Win").GetComponent<Text>().text = "No Winners This Time!";
+                }
             }
         }
     }

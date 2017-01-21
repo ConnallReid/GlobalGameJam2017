@@ -14,6 +14,8 @@ public class RandomLetter : MonoBehaviour {
     public int Score1;
     public int Score2;
 
+    public bool Go = false;
+
     public string[] Letters = new string[] { "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z" };
 
     void Start () {
@@ -32,29 +34,38 @@ public class RandomLetter : MonoBehaviour {
     }
 	
 	void Update () {
-        if (GameObject.Find("Win").GetComponent<Text>().text == "Player 1 Wins!")
-        {
 
-        }
-        else if (GameObject.Find("Win").GetComponent<Text>().text == "Player 2 Wins!")
+        if (GameObject.Find("Start Timer").GetComponent<Text>().text == "Go!")
         {
-
-        }
-        else if (GameObject.Find("Win").GetComponent<Text>().text == "No Winners This Time!")
-        {
-
-        }
-        else
-        {
-            Player1Stuff();
-            Player2Stuff();
+            Go = true;
         }
 
-        if(GameObject.Find("Player 1 Letter").GetComponent<Text>().text == GameObject.Find("Player 2 Letter").GetComponent<Text>().text)
+        if (GameObject.Find("Start Timer").GetComponent<Text>().text == "")
         {
-            var RandomLetter2 = Random.Range(1, 26);
-            LetterLetter2 = Letters[RandomLetter2];
-            GameObject.Find("Player 2 Letter").GetComponent<Text>().text = LetterLetter2;
+            if (GameObject.Find("Win").GetComponent<Text>().text == "Player 1 Wins!")
+            {
+
+            }
+            else if (GameObject.Find("Win").GetComponent<Text>().text == "Player 2 Wins!")
+            {
+
+            }
+            else if (GameObject.Find("Win").GetComponent<Text>().text == "No Winners This Time!")
+            {
+
+            }
+            else
+            {
+                Player1Stuff();
+                Player2Stuff();
+            }
+
+            if (GameObject.Find("Player 1 Letter").GetComponent<Text>().text == GameObject.Find("Player 2 Letter").GetComponent<Text>().text)
+            {
+                var RandomLetter2 = Random.Range(1, 26);
+                LetterLetter2 = Letters[RandomLetter2];
+                GameObject.Find("Player 2 Letter").GetComponent<Text>().text = LetterLetter2;
+            }
         }
     }
 
