@@ -6,16 +6,25 @@ using UnityEngine;
 public class Timer : MonoBehaviour {
 
     //public int time;
-    float time = 300.0f;
+    public float time = 300.0f;
+    public float seconds;
 
     void Start () {
-        time = 0;
+        time = 40;
 	}
 	
 	void Update () {
 
-        time += Time.deltaTime;
+        if (time > 0)
+        {
+            time -= Time.deltaTime;
+            seconds = Mathf.Round(time);
 
-        GameObject.Find("Timer").GetComponent<Text>().text = time.ToString();
+            GameObject.Find("Timer").GetComponent<Text>().text = seconds.ToString();
+        }
+        else
+        {
+            GameObject.Find("Timer").GetComponent<Text>().text = "Game Over";
+        }
     }
 }

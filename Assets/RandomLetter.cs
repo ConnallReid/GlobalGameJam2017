@@ -35,6 +35,14 @@ public class RandomLetter : MonoBehaviour {
 	void Update () {
         Player1Stuff();
         Player2Stuff();
+
+        if(GameObject.Find("Player 1 Letter").GetComponent<Text>().text == GameObject.Find("Player 2 Letter").GetComponent<Text>().text)
+        {
+            var RandomLetter2 = Random.Range(1, 26);
+            LetterLetter2 = Letters[RandomLetter2];
+            GameObject.Find("Player 2 Letter").GetComponent<Text>().text = LetterLetter2;
+        }
+
     }
 
     void Player1Stuff()
