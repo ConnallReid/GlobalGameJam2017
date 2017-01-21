@@ -22,6 +22,14 @@ public class RandomLetter : MonoBehaviour {
 
         Score1 = 0;
         Score2 = 0;
+
+        var RandomLetter1 = Random.Range(1, 26);
+        var RandomLetter2 = Random.Range(1, 26);
+        LetterLetter1 = Letters[RandomLetter1];
+        LetterLetter2 = Letters[RandomLetter2];
+        GameObject.Find("Player 1 Letter").GetComponent<Text>().text = LetterLetter1;
+        GameObject.Find("Player 2 Letter").GetComponent<Text>().text = LetterLetter2;
+        Hit1 = false;
     }
 	
 	void Update () {
