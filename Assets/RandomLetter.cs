@@ -5,6 +5,33 @@ using UnityEngine;
 
 public class RandomLetter : MonoBehaviour {
 
+    public Texture A;
+    public Texture B;
+    public Texture C;
+    public Texture D;
+    public Texture E;
+    public Texture F;
+    public Texture G;
+    public Texture H;
+    public Texture I;
+    public Texture J;
+    public Texture K;
+    public Texture L;
+    public Texture M;
+    public Texture N;
+    public Texture O;
+    public Texture P;
+    public Texture Q;
+    public Texture R;
+    public Texture S;
+    public Texture T;
+    public Texture U;
+    public Texture V;
+    public Texture W;
+    public Texture X;
+    public Texture Y;
+    public Texture Z;
+
     public bool Hit1;
     public bool Hit2;
 
@@ -58,6 +85,8 @@ public class RandomLetter : MonoBehaviour {
             {
                 Player1Stuff();
                 Player2Stuff();
+                Key1ToImage();
+                Key2ToImage();
             }
 
             if (GameObject.Find("Player 1 Letter").GetComponent<Text>().text == GameObject.Find("Player 2 Letter").GetComponent<Text>().text)
@@ -183,6 +212,7 @@ public class RandomLetter : MonoBehaviour {
             Score1 += 5;
             GameObject.Find("Player 1 Score").GetComponent<Text>().text = Score1.ToString();
             GameObject.Find("Player 1 Letter").GetComponent<Text>().text = LetterLetter1;
+            //GameObject.Find("Player 1 Key").GetComponent<RawImage>().texture = A;
             Hit1 = false;
         }
     }
@@ -302,6 +332,222 @@ public class RandomLetter : MonoBehaviour {
             GameObject.Find("Player 2 Score").GetComponent<Text>().text = Score2.ToString();
             GameObject.Find("Player 2 Letter").GetComponent<Text>().text = LetterLetter2;
             Hit2 = false;
+        }
+    }
+
+    void Key1ToImage()
+    {
+        if (GameObject.Find("Player 1 Letter").GetComponent<Text>().text == "A")
+        {
+            GameObject.Find("Player 1 Key").GetComponent<RawImage>().texture = A;
+        }
+        if (GameObject.Find("Player 1 Letter").GetComponent<Text>().text == "B")
+        {
+            GameObject.Find("Player 1 Key").GetComponent<RawImage>().texture = B;
+        }
+        if (GameObject.Find("Player 1 Letter").GetComponent<Text>().text == "C")
+        {
+            GameObject.Find("Player 1 Key").GetComponent<RawImage>().texture = C;
+        }
+        if (GameObject.Find("Player 1 Letter").GetComponent<Text>().text == "D")
+        {
+            GameObject.Find("Player 1 Key").GetComponent<RawImage>().texture = D;
+        }
+        if (GameObject.Find("Player 1 Letter").GetComponent<Text>().text == "E")
+        {
+            GameObject.Find("Player 1 Key").GetComponent<RawImage>().texture = E;
+        }
+        if (GameObject.Find("Player 1 Letter").GetComponent<Text>().text == "F")
+        {
+            GameObject.Find("Player 1 Key").GetComponent<RawImage>().texture = F;
+        }
+        if (GameObject.Find("Player 1 Letter").GetComponent<Text>().text == "G")
+        {
+            GameObject.Find("Player 1 Key").GetComponent<RawImage>().texture = G;
+        }
+        if (GameObject.Find("Player 1 Letter").GetComponent<Text>().text == "H")
+        {
+            GameObject.Find("Player 1 Key").GetComponent<RawImage>().texture = H;
+        }
+        if (GameObject.Find("Player 1 Letter").GetComponent<Text>().text == "I")
+        {
+            GameObject.Find("Player 1 Key").GetComponent<RawImage>().texture = I;
+        }
+        if (GameObject.Find("Player 1 Letter").GetComponent<Text>().text == "J")
+        {
+            GameObject.Find("Player 1 Key").GetComponent<RawImage>().texture = J;
+        }
+        if (GameObject.Find("Player 1 Letter").GetComponent<Text>().text == "K")
+        {
+            GameObject.Find("Player 1 Key").GetComponent<RawImage>().texture = K;
+        }
+        if (GameObject.Find("Player 1 Letter").GetComponent<Text>().text == "L")
+        {
+            GameObject.Find("Player 1 Key").GetComponent<RawImage>().texture = L;
+        }
+        if (GameObject.Find("Player 1 Letter").GetComponent<Text>().text == "M")
+        {
+            GameObject.Find("Player 1 Key").GetComponent<RawImage>().texture = M;
+        }
+        if (GameObject.Find("Player 1 Letter").GetComponent<Text>().text == "N")
+        {
+            GameObject.Find("Player 1 Key").GetComponent<RawImage>().texture = N;
+        }
+        if (GameObject.Find("Player 1 Letter").GetComponent<Text>().text == "O")
+        {
+            GameObject.Find("Player 1 Key").GetComponent<RawImage>().texture = O;
+        }
+        if (GameObject.Find("Player 1 Letter").GetComponent<Text>().text == "P")
+        {
+            GameObject.Find("Player 1 Key").GetComponent<RawImage>().texture = P;
+        }
+        if (GameObject.Find("Player 1 Letter").GetComponent<Text>().text == "Q")
+        {
+            GameObject.Find("Player 1 Key").GetComponent<RawImage>().texture = Q;
+        }
+        if (GameObject.Find("Player 1 Letter").GetComponent<Text>().text == "R")
+        {
+            GameObject.Find("Player 1 Key").GetComponent<RawImage>().texture = R;
+        }
+        if (GameObject.Find("Player 1 Letter").GetComponent<Text>().text == "S")
+        {
+            GameObject.Find("Player 1 Key").GetComponent<RawImage>().texture = S;
+        }
+        if (GameObject.Find("Player 1 Letter").GetComponent<Text>().text == "T")
+        {
+            GameObject.Find("Player 1 Key").GetComponent<RawImage>().texture = T;
+        }
+        if (GameObject.Find("Player 1 Letter").GetComponent<Text>().text == "U")
+        {
+            GameObject.Find("Player 1 Key").GetComponent<RawImage>().texture = U;
+        }
+        if (GameObject.Find("Player 1 Letter").GetComponent<Text>().text == "V")
+        {
+            GameObject.Find("Player 1 Key").GetComponent<RawImage>().texture = V;
+        }
+        if (GameObject.Find("Player 1 Letter").GetComponent<Text>().text == "W")
+        {
+            GameObject.Find("Player 1 Key").GetComponent<RawImage>().texture = W;
+        }
+        if (GameObject.Find("Player 1 Letter").GetComponent<Text>().text == "X")
+        {
+            GameObject.Find("Player 1 Key").GetComponent<RawImage>().texture = X;
+        }
+        if (GameObject.Find("Player 1 Letter").GetComponent<Text>().text == "Y")
+        {
+            GameObject.Find("Player 1 Key").GetComponent<RawImage>().texture = Y;
+        }
+        if (GameObject.Find("Player 1 Letter").GetComponent<Text>().text == "Z")
+        {
+            GameObject.Find("Player 1 Key").GetComponent<RawImage>().texture = Z;
+        }
+    }
+
+    void Key2ToImage()
+    {
+        if (GameObject.Find("Player 2 Letter").GetComponent<Text>().text == "A")
+        {
+            GameObject.Find("Player 2 Key").GetComponent<RawImage>().texture = A;
+        }
+        if (GameObject.Find("Player 2 Letter").GetComponent<Text>().text == "B")
+        {
+            GameObject.Find("Player 2 Key").GetComponent<RawImage>().texture = B;
+        }
+        if (GameObject.Find("Player 2 Letter").GetComponent<Text>().text == "C")
+        {
+            GameObject.Find("Player 2 Key").GetComponent<RawImage>().texture = C;
+        }
+        if (GameObject.Find("Player 2 Letter").GetComponent<Text>().text == "D")
+        {
+            GameObject.Find("Player 2 Key").GetComponent<RawImage>().texture = D;
+        }
+        if (GameObject.Find("Player 2 Letter").GetComponent<Text>().text == "E")
+        {
+            GameObject.Find("Player 2 Key").GetComponent<RawImage>().texture = E;
+        }
+        if (GameObject.Find("Player 2 Letter").GetComponent<Text>().text == "F")
+        {
+            GameObject.Find("Player 2 Key").GetComponent<RawImage>().texture = F;
+        }
+        if (GameObject.Find("Player 2 Letter").GetComponent<Text>().text == "G")
+        {
+            GameObject.Find("Player 2 Key").GetComponent<RawImage>().texture = G;
+        }
+        if (GameObject.Find("Player 2 Letter").GetComponent<Text>().text == "H")
+        {
+            GameObject.Find("Player 2 Key").GetComponent<RawImage>().texture = H;
+        }
+        if (GameObject.Find("Player 2 Letter").GetComponent<Text>().text == "I")
+        {
+            GameObject.Find("Player 2 Key").GetComponent<RawImage>().texture = I;
+        }
+        if (GameObject.Find("Player 2 Letter").GetComponent<Text>().text == "J")
+        {
+            GameObject.Find("Player 2 Key").GetComponent<RawImage>().texture = J;
+        }
+        if (GameObject.Find("Player 2 Letter").GetComponent<Text>().text == "K")
+        {
+            GameObject.Find("Player 2 Key").GetComponent<RawImage>().texture = K;
+        }
+        if (GameObject.Find("Player 2 Letter").GetComponent<Text>().text == "L")
+        {
+            GameObject.Find("Player 2 Key").GetComponent<RawImage>().texture = L;
+        }
+        if (GameObject.Find("Player 2 Letter").GetComponent<Text>().text == "M")
+        {
+            GameObject.Find("Player 2 Key").GetComponent<RawImage>().texture = M;
+        }
+        if (GameObject.Find("Player 2 Letter").GetComponent<Text>().text == "N")
+        {
+            GameObject.Find("Player 2 Key").GetComponent<RawImage>().texture = N;
+        }
+        if (GameObject.Find("Player 2 Letter").GetComponent<Text>().text == "O")
+        {
+            GameObject.Find("Player 2 Key").GetComponent<RawImage>().texture = O;
+        }
+        if (GameObject.Find("Player 2 Letter").GetComponent<Text>().text == "P")
+        {
+            GameObject.Find("Player 2 Key").GetComponent<RawImage>().texture = P;
+        }
+        if (GameObject.Find("Player 2 Letter").GetComponent<Text>().text == "Q")
+        {
+            GameObject.Find("Player 2 Key").GetComponent<RawImage>().texture = Q;
+        }
+        if (GameObject.Find("Player 2 Letter").GetComponent<Text>().text == "R")
+        {
+            GameObject.Find("Player 2 Key").GetComponent<RawImage>().texture = R;
+        }
+        if (GameObject.Find("Player 2 Letter").GetComponent<Text>().text == "S")
+        {
+            GameObject.Find("Player 2 Key").GetComponent<RawImage>().texture = S;
+        }
+        if (GameObject.Find("Player 2 Letter").GetComponent<Text>().text == "T")
+        {
+            GameObject.Find("Player 2 Key").GetComponent<RawImage>().texture = T;
+        }
+        if (GameObject.Find("Player 2 Letter").GetComponent<Text>().text == "U")
+        {
+            GameObject.Find("Player 2 Key").GetComponent<RawImage>().texture = U;
+        }
+        if (GameObject.Find("Player 2 Letter").GetComponent<Text>().text == "V")
+        {
+            GameObject.Find("Player 2 Key").GetComponent<RawImage>().texture = V;
+        }
+        if (GameObject.Find("Player 2 Letter").GetComponent<Text>().text == "W")
+        {
+            GameObject.Find("Player 2 Key").GetComponent<RawImage>().texture = W;
+        }
+        if (GameObject.Find("Player 2 Letter").GetComponent<Text>().text == "X")
+        {
+            GameObject.Find("Player 2 Key").GetComponent<RawImage>().texture = X;
+        }
+        if (GameObject.Find("Player 2 Letter").GetComponent<Text>().text == "Y")
+        {
+            GameObject.Find("Player 2 Key").GetComponent<RawImage>().texture = Y;
+        }
+        if (GameObject.Find("Player 2 Letter").GetComponent<Text>().text == "Z")
+        {
+            GameObject.Find("Player 2 Key").GetComponent<RawImage>().texture = Z;
         }
     }
 }

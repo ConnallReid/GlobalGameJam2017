@@ -25,7 +25,13 @@ public class Timer : MonoBehaviour {
     public GameObject Bar2E;
     public GameObject Bar2F;
 
+    public GameObject ExitButton;
+    public GameObject PlayAgainButton;
+
     public bool win;
+
+    public bool Exit=false;
+    public bool PlayAgain=false;
 
     void Start () {
         Camera = GameObject.Find("Main Camera");
@@ -50,6 +56,9 @@ public class Timer : MonoBehaviour {
         Bar2E = GameObject.Find("Bar2E");
         Bar2F = GameObject.Find("Bar2F");
 
+        ExitButton = GameObject.Find("Quit Game");
+        PlayAgainButton = GameObject.Find("Reset Game");
+
         Bar1A.SetActive(false);
         Bar1B.SetActive(false);
         Bar1C.SetActive(false);
@@ -69,6 +78,23 @@ public class Timer : MonoBehaviour {
 
     void Update()
     {
+        if (Exit == true)
+        {
+            ExitButton.SetActive(true);
+        }
+        if (Exit == false)
+        {
+            ExitButton.SetActive(false);
+        }
+
+        if (PlayAgain == true)
+        {
+            PlayAgainButton.SetActive(true);
+        }
+        if (PlayAgain == false)
+        {
+            PlayAgainButton.SetActive(false);
+        }
 
         Bar1();
         Bar2();
@@ -80,6 +106,9 @@ public class Timer : MonoBehaviour {
             {
                 time -= Time.deltaTime;
                 seconds = Mathf.Round(time);
+
+                Exit = false;
+                PlayAgain = false;
 
                 GameObject.Find("Timer").GetComponent<Text>().text = seconds.ToString();
             }
@@ -97,7 +126,12 @@ public class Timer : MonoBehaviour {
                 {
                     GameObject.Find("Win").GetComponent<Text>().text = "No Winners This Time!";
                 }
+
+                Exit = true;
+                PlayAgain = true;
             }
+
+
         }
     }
 
