@@ -75,11 +75,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Background.cs" />
-    <Compile Include="Assets\RandomLetter.cs" />
-    <Compile Include="Assets\Restart.cs" />
-    <Compile Include="Assets\StartTimer.cs" />
-    <Compile Include="Assets\Timer.cs" />
+    <Compile Include="Assets\Scripts\Background.cs" />
+    <Compile Include="Assets\Scripts\RandomLetter.cs" />
+    <Compile Include="Assets\Scripts\Restart.cs" />
+    <Compile Include="Assets\Scripts\StartTimer.cs" />
+    <Compile Include="Assets\Scripts\Timer.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
