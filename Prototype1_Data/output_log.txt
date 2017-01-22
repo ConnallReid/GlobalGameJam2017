@@ -17,25 +17,19 @@ Platform assembly: C:\Users\Connall\Documents\GlobalGameJam2017\Prototype1_Data\
 Loading C:\Users\Connall\Documents\GlobalGameJam2017\Prototype1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\Connall\Documents\GlobalGameJam2017\Prototype1_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
 Loading C:\Users\Connall\Documents\GlobalGameJam2017\Prototype1_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.070 seconds
+- Completed reload, in  0.086 seconds
 Platform assembly: C:\Users\Connall\Documents\GlobalGameJam2017\Prototype1_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Connall\Documents\GlobalGameJam2017\Prototype1_Data\Managed\System.dll (this message is harmless)
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 2.877710 ms
+UnloadTime: 2.344024 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 28bc -> priority: 1 
+  Thread -> id: 2480 -> priority: 1 
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 10.016430 ms
+UnloadTime: 7.841525 ms
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 477.
-Total: 0.653720 ms (FindLiveObjects: 0.074519 ms CreateObjectMapping: 0.042837 ms MarkObjects: 0.510928 ms  DeleteObjects: 0.024096 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 7.975393 ms
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 477.
-Total: 0.991067 ms (FindLiveObjects: 0.107986 ms CreateObjectMapping: 0.102185 ms MarkObjects: 0.746535 ms  DeleteObjects: 0.033466 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 498.
+Total: 0.504235 ms (FindLiveObjects: 0.053547 ms CreateObjectMapping: 0.053100 ms MarkObjects: 0.379291 ms  DeleteObjects: 0.017849 ms)
 

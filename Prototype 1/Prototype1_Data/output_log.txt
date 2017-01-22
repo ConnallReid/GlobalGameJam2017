@@ -17,37 +17,13 @@ Platform assembly: C:\Users\Connall\Documents\GlobalGameJam2017\Prototype 1\Prot
 Loading C:\Users\Connall\Documents\GlobalGameJam2017\Prototype 1\Prototype1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\Connall\Documents\GlobalGameJam2017\Prototype 1\Prototype1_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
 Loading C:\Users\Connall\Documents\GlobalGameJam2017\Prototype 1\Prototype1_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.048 seconds
+- Completed reload, in  0.049 seconds
 Platform assembly: C:\Users\Connall\Documents\GlobalGameJam2017\Prototype 1\Prototype1_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Connall\Documents\GlobalGameJam2017\Prototype 1\Prototype1_Data\Managed\System.dll (this message is harmless)
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 2.256117 ms
+UnloadTime: 5.704550 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 10a0 -> priority: 1 
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 7.345322 ms
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 372.
-Total: 0.325298 ms (FindLiveObjects: 0.044622 ms CreateObjectMapping: 0.020526 ms MarkObjects: 0.240515 ms  DeleteObjects: 0.018295 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.665768 ms
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 372.
-Total: 0.322175 ms (FindLiveObjects: 0.042837 ms CreateObjectMapping: 0.019187 ms MarkObjects: 0.241408 ms  DeleteObjects: 0.017849 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 2.053531 ms
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 372.
-Total: 0.354749 ms (FindLiveObjects: 0.045515 ms CreateObjectMapping: 0.020972 ms MarkObjects: 0.268627 ms  DeleteObjects: 0.019187 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.675585 ms
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 372.
-Total: 0.341362 ms (FindLiveObjects: 0.030343 ms CreateObjectMapping: 0.021418 ms MarkObjects: 0.270859 ms  DeleteObjects: 0.018295 ms)
-
+  Thread -> id: 1ca4 -> priority: 1 
